@@ -2,7 +2,8 @@ from xstatic.pkg import pygments as xs
 
 # The README.txt file should be written in reST so that PyPI can use
 # it to generate your project's PyPI page. 
-long_description = open('README.txt').read()
+with open('README.txt') as f:
+    long_description = f.read()
 
 from setuptools import setup, find_packages
 

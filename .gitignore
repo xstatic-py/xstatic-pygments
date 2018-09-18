@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+dist/
+XStatic_Pygments.egg-info/
+MANIFEST
+.DS_Store
+.orig
+.rej
