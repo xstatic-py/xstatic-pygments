@@ -1,4 +1,8 @@
-for S in monokai manni rrt perldoc borland colorful default murphy vs trac tango fruity autumn bw emacs vim pastie friendly native; do
+for S in abap algol_nu algol arduino autumn borland bw colorful \
+         default emacs friendly fruity igor lovelace manni monokai \
+         murphy native paraiso_dark paraiso_light pastie perldoc \
+         rainbow_dash rrt sas stata tango trac vim vs xcode ; do
     pygmentize -f html -S $S > xstatic/pkg/pygments/data/css/$S.css
 done
+
 
