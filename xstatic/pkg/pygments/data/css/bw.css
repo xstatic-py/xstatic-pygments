@@ -5,7 +5,7 @@ td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5
 span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .hll { background-color: #ffffcc }
 .c { font-style: italic } /* Comment */
-.err { border: 1px solid #FF0000 } /* Error */
+.err { border: 1px solid #F00 } /* Error */
 .k { font-weight: bold } /* Keyword */
 .ch { font-style: italic } /* Comment.Hashbang */
 .cm { font-style: italic } /* Comment.Multiline */
@@ -13,6 +13,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .c1 { font-style: italic } /* Comment.Single */
 .cs { font-style: italic } /* Comment.Special */
 .ge { font-style: italic } /* Generic.Emph */
+.ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .gh { font-weight: bold } /* Generic.Heading */
 .gp { font-weight: bold } /* Generic.Prompt */
 .gs { font-weight: bold } /* Generic.Strong */
